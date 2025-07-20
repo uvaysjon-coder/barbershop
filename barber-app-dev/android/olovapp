@@ -1,0 +1,22 @@
+~\StudioProjects\barber-app git:[dev]
+keytool -genkey -v -keystore ./upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+Enter keystore password: olovapp
+Re-enter new password: olovapp
+What is your first and last name?
+  [Unknown]:  olovapp
+What is the name of your organizational unit?
+  [Unknown]:  olovapp
+What is the name of your organization?
+  [Unknown]:  olovapp
+What is the name of your City or Locality?
+  [Unknown]:  Tashkent
+What is the name of your State or Province?
+  [Unknown]:  Tashkent
+What is the two-letter country code for this unit?
+  [Unknown]:  UZ
+Is CN=olovapp, OU=olovapp, O=olovapp, L=Tashkent, ST=Tashkent, C=UZ correct?
+  [no]:  yes
+
+Generating 2�048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 10�000 days
+        for: CN=olovapp, OU=olovapp, O=olovapp, L=Tashkent, ST=Tashkent, C=UZ
+[Storing ./upload-keystore.jks]
